@@ -1,0 +1,160 @@
+section {
+    /* margin: 10rem; */
+    text-align: center;
+
+}
+
+* {
+
+    box-sizing: border-box;
+    font-family: Rubik, sans-serif;
+}
+
+section h3 {
+    font-weight: 600;
+    font-size: 24px;
+    color: #1b75bb;
+}
+
+section #desc {
+
+    font-weight: 300;
+    font-size: 16px;
+    color: #555;
+    margin-top: .5em;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50vw;
+    margin-bottom: 25px;
+
+}
+
+
+.courses-container {
+
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 22.5%;
+    margin-right: auto;
+
+}
+
+
+
+.courses {
+    padding: 10px;
+    /* height: 12em; */
+    width: 20em;
+    color: #555;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, .1);
+    border-radius: 15px;
+    padding-bottom: 2em;
+    /* margin-left: 3em; */
+    /* margin-bottom: 2em; */
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+    border: 1px solid #eeeded;
+
+}
+
+
+
+
+.course-short {
+    font-size: 18px;
+    font-weight: 600;
+    color: rgb(27, 117, 187);
+    margin-top: 2px;
+}
+
+
+.course-full {
+    font-size: 14px;
+    font-weight: 300;
+    color: #555;
+}
+
+
+.courses .button {
+
+    margin-top: 1.5em;
+    display: flex;
+    flex-wrap: wrap;
+    padding: .7em 2em;
+    width: fit-content;
+    background: rgba(27, 117, 187, .05);
+    /* background-color: rgba(6, 134, 231, 0.123); */
+    border: 1px solid #1b75bb;
+    border-radius: 27px;
+    color: #1b75bb;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 505;
+
+
+}
+
+
+.courses:nth-child(2)>button {
+    color: rgb(246, 165, 41);
+    border: 1px solid rgb(246, 165, 41);
+
+}
+
+.courses:nth-child(2)>h4 {
+    color: rgb(246, 165, 41);
+}
+
+
+
+
+.courses:nth-child(3)>button {
+    color: rgb(81, 182, 185);
+    border: 1px solid rgb(81, 182, 185);
+
+}
+
+.courses:nth-child(3)>h4 {
+    color: rgb(81, 182, 185);
+
+}
+
+
+
+.courses:nth-child(4)>button {
+    border: 1px solid rgb(244, 115, 14);
+
+    color: rgb(244, 115, 14);
+}
+
+.courses:nth-child(4)>h4 {
+
+    color: rgb(244, 115, 14);
+}
+
+.courses:nth-child(5)>button {
+    border: 1px solid rgb(57, 167, 100);
+
+    color: rgb(57, 167, 100);
+}
+
+.courses:nth-child(5)>h4 {
+
+    color: rgb(57, 167, 100);
+}
+
+
+.courses .fee {
+    color: #999;
+    margin-top: 14px;
+    margin-bottom: 5px;
+    font-size: 14px;
+
+}
+
+/* .courses span {
+    color: #363636;
+} */
